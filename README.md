@@ -1,8 +1,10 @@
 # Taller 01
 Taller 01 Java
 
-##Enunciado##
-[Taller 01 - JDBC](src/main/resources/ppt/Taller01-JDBC.pdf)
+##Integrantes del grupo##
+1. <Integrante  del grupo>
+2. <Integrante  del grupo>
+3. <Integrante  del grupo>
 
 ###Tareas a realizar:###
 *	Clonar el repositorio github
@@ -12,4 +14,4 @@ Taller 01 Java
 *	Implementar la interface Biblioteca
 *	Implementar la interface Ordenable
 *	Implementar los algoritmos de ordenamiento
-*	Implementar el método en Suscriptor
+*	Enviar el trabajo
