@@ -1,60 +1,49 @@
 package frsf.isi.died.tp.modelo;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-import frsf.isi.died.tp.modelo.productos.Libro;
 import frsf.isi.died.tp.modelo.productos.MaterialCapacitacion;
 
-import frsf.isi.died.tp.util.ListaServiceRadix;
-import frsf.isi.died.tp.util.ListasService;
 
+/**
+ * Esta clase implementa la interface Biblioteca y todas sus operaciones, gestionando todos los
+ * @see MaterialCapacitacion en un arreglo.
+ * @author mdominguez
+ *
+ */
 public class BibliotecaArray implements Biblioteca{
 
+	/**
+	 * Arreglo donde se almacenan todos los materiales de capacitacion
+	 */
 	private MaterialCapacitacion[] materialCapacitacion;
-	private Integer cantidadSuscriptores;
+	/**
+	 * Variable interna de control que se utiliza para llevar registro de cuantos materiales 
+	 * se llevan insertados. Se utiliza para evitar insertar un nuevo material fuera de rango
+	 * y tambien para responder la consulta acerca de cuantos materiales hay insertados
+	 */
 	private Integer cantidadMaterial;
-	private ListasService service;
-	private Boolean ordenarPorPrecio;
+	
+	// TODO 12: crear una variable de tipo ListaService que apuntará a una instancia del servicio de operaciones de lista
+
 	
 	public BibliotecaArray() {
-		service = new ListaServiceRadix();
 		cantidadMaterial=0;
-		cantidadSuscriptores=0;
-		this.ordenarPorPrecio = false;
 		this.materialCapacitacion= new MaterialCapacitacion[10];
+		// TODO 13: inicializar la variable de tipo ListaService para que apunte el servicio de operaciones de listas		
 	}
-	
-
-
-	@Override
-	public void imprimir() {		
-		//this.service.setArreglo(materialCapacitacion);
-		if(ordenarPorPrecio)this.service.ordenar();
-		this.service.imprimir();
-	}
-	
-	
-
-	@Override
-	public void ordenarPorPrecio(Boolean b) {
-		this.ordenarPorPrecio=b;
-	}
-
-
 
 	@Override
 	public void agregar(MaterialCapacitacion material) {
-		// TODO Auto-generated method stub
+		// TODO 06: se agrega un material al arreglo de materiales de capacitacion si hay espacio en el arreglo
+		// caso contrario el metodo no agrega ningun elemento y termina su ejecución
 		
 	}
 
-
-
 	@Override
 	public Integer cantidadMateriales() {
-		// TODO Auto-generated method stub
+		// TODO 07: retorna la cantidad de materiales que hay ingresados en el sistema
 		return null;
 	}
 
@@ -62,7 +51,8 @@ public class BibliotecaArray implements Biblioteca{
 
 	@Override
 	public Integer cantidadLibros() {
-		// TODO Auto-generated method stub
+		// TODO 08: retorna la cantidad de libros registrados en el sistema.
+		// No se puede usar para este método el operador "instanceOf" ni realizar ningun tipo de casting. 
 		return null;
 	}
 
@@ -70,17 +60,28 @@ public class BibliotecaArray implements Biblioteca{
 
 	@Override
 	public Integer cantidadVideos() {
-		// TODO Auto-generated method stub
+		// TODO 09: retorna la cantidad de videos registrados en el sistema. 
+		// No se puede usar para este método el operador "instanceOf" ni realizar ningun tipo de casting. 
 		return null;
 	}
 
+	@Override
+	public void imprimir() {		
+		//TODO 14: invocar al método imprimir de la variable de tipo ListaService para que imprima el arreglo 
+	}
+		
+
+	@Override
+	public void ordenarPorPrecio(Boolean b) {
+		// TODO 15: invocar al metodo ordenar de la variable de tipo ListaService para que ordene el arreglo 
+	}
 
 
 	@Override
 	public Collection<MaterialCapacitacion> materiales() {
-		// TODO Auto-generated method stub
-		return null;
+		return Arrays.asList(this.materialCapacitacion);
 	}
+
 
 
 }
