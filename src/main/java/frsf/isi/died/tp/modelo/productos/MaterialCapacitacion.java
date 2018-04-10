@@ -57,21 +57,10 @@ public abstract class MaterialCapacitacion {
 		this.costo = costo;
 	}
 
-	public String getTitulo() {
-		return titulo;
-	}
 
-	public Double getCosto() {
-		return costo;
-	}
-
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-
-	public void setCosto(Double costo) {
-		this.costo = costo;
-	}
+	//TODO 01 implementar los metodos getters y setters y escribir el javadoc
+	// AYUDA: para implementar estos metodos usar un atajo del IDE 
+	// elegir el menu "Source" --> "Generate getters y setters" y elegir alli que metodos generar.
 	
 
 	/**
@@ -81,12 +70,25 @@ public abstract class MaterialCapacitacion {
 	 * @return
 	 */
 	public abstract Double precio();
+	
+	/**
+	 * Retorna verdadero si es una instancia de libro, falso en caso contrario
+	 * @return
+	 */
 	public abstract Boolean esLibro();
+
+	/**
+	 * Retorna verdadero si es una instancia de video, falso en caso contrario
+	 * @return
+	 */
 	public abstract Boolean esVideo();
 	
-	//TODO implementar toString
+	//TODO 02: sobrescribir el metodo toString de la clase "Object"
+	//	el método toString retorna un string que representa el material actual
+	//  retornando el titulo, y el precio 	 * usando el formato : 
+	// [Titulo: <titulo> ; Precio: <precio> ]
 	
 	
-	// TODO implementar Ordenable
+	// TODO 10: implementar Ordenable
 
 }
