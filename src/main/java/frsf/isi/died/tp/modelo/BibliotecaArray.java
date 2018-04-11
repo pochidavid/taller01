@@ -13,7 +13,8 @@ import frsf.isi.died.tp.modelo.productos.MaterialCapacitacion;
  *
  */
 public class BibliotecaArray implements Biblioteca{
-
+	
+	
 	/**
 	 * Arreglo donde se almacenan todos los materiales de capacitacion
 	 */
@@ -30,7 +31,7 @@ public class BibliotecaArray implements Biblioteca{
 	
 	public BibliotecaArray() {
 		cantidadMaterial=0;
-		this.materialCapacitacion= new MaterialCapacitacion[10];
+		this.materialCapacitacion= new MaterialCapacitacion[5];
 		// TODO 13: inicializar la variable de tipo ListaService para que apunte el servicio de operaciones de listas		
 	}
 
@@ -39,12 +40,19 @@ public class BibliotecaArray implements Biblioteca{
 		// TODO 06: se agrega un material al arreglo de materiales de capacitacion si hay espacio en el arreglo
 		// caso contrario el metodo no agrega ningun elemento y termina su ejecución
 		
+		for(int i=0;i<this.materialCapacitacion.length;i++){
+			if(this.materialCapacitacion[i] == null){
+				this.materialCapacitacion[i]= material;
+				break;
+			}
+		}
+		
 	}
 
 	@Override
 	public Integer cantidadMateriales() {
 		// TODO 07: retorna la cantidad de materiales que hay ingresados en el sistema
-		return null;
+		return this.cantidadMaterial;
 	}
 
 
@@ -53,7 +61,15 @@ public class BibliotecaArray implements Biblioteca{
 	public Integer cantidadLibros() {
 		// TODO 08: retorna la cantidad de libros registrados en el sistema.
 		// No se puede usar para este método el operador "instanceOf" ni realizar ningun tipo de casting. 
-		return null;
+		int aux=0;
+		for(int i=0;i<this.materialCapacitacion.length;i++){
+			if(!(this.materialCapacitacion[i].equals(null))){
+				if(this.materialCapacitacion[i].esLibro()){
+					aux++;
+				}
+			}
+		}
+		return aux;
 	}
 
 
@@ -62,7 +78,15 @@ public class BibliotecaArray implements Biblioteca{
 	public Integer cantidadVideos() {
 		// TODO 09: retorna la cantidad de videos registrados en el sistema. 
 		// No se puede usar para este método el operador "instanceOf" ni realizar ningun tipo de casting. 
-		return null;
+		int aux=0;
+		for(int i=0;i<this.materialCapacitacion.length;i++){
+			if(!(this.materialCapacitacion[i].equals(null))){
+				if(this.materialCapacitacion[i].esVideo()){
+					aux++;
+				}
+			}
+		}
+		return aux;
 	}
 
 	@Override

@@ -2,8 +2,8 @@
 Taller 01 Java
 
 ##Integrantes del grupo##
-1. <Integrante  del grupo>
-2. <Integrante  del grupo>
+1. MANDRACCHIA, Alexis David
+2. SANCHEZ, Julian Alejandro
 3. <Integrante  del grupo>
 
 ###Tareas a realizar:###
