@@ -78,6 +78,7 @@ public class ListaServiceRadix extends ListasService {
 
 	@Override
 	public void ordenar() {
+		int residuo, posicionFila;
 
 		for (int i = 0; i < 5; i++) {
 			// calcular la base de la posicion actual
@@ -86,9 +87,18 @@ public class ListaServiceRadix extends ListasService {
 			int peso = (int) Math.pow(10.0, i);
 
 			for (Ordenable mat : this.arregloOrdenable) {
-				// TODO 11: IMPLEMENTAR el ALGORITMO que chequea el residuo 
+				// chequea el residuo
 				// e inserta el elemento en la posicion de la matriz de residuos
 				// e incrementa el contador en cantidadPorFila en 1
+
+				if(mat != null){
+					residuo = getResiduo(mat.valor(),peso);
+					posicionFila = cantidadPorFila[residuo];
+
+					residuos[residuo][posicionFila] = mat;
+
+					cantidadPorFila[residuo]++;
+				}
 			}
 			int indiceArregloOrdenado = 0;
 			for (int j = 0; j < 10; j++) {
@@ -99,6 +109,10 @@ public class ListaServiceRadix extends ListasService {
 				cantidadPorFila[j] = 0;
 			}
 		}
+	}
+
+	private int getResiduo(int numero, int peso){
+		return (numero/peso)%10;
 	}
 
 }

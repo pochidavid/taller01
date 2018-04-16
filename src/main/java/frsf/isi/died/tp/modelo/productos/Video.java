@@ -20,19 +20,16 @@ public class Video extends MaterialCapacitacion {
 	}
 	@Override
 	public Double precio() {
-		// TODO Auto-generated method stub
 		return this.costo + (this.duracion*costo_segundo);
 	}
 
 	@Override
 	public Boolean esLibro() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public Boolean esVideo() {
-		// TODO Auto-generated method stub
 		return true;
 	}
 

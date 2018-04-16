@@ -85,23 +85,12 @@ public class Libro extends MaterialCapacitacion {
 
 	@Override
 	public Boolean esLibro() {
-		//TODO 03: implementar metodo abstracto	
-		if(this instanceof Libro){
-			return true;
-		}else{
-			return false;
-		}
-		
+		return true;
 	}
 
 	@Override
 	public Boolean esVideo() {
-		//TODO 04: implementar metodo abstracto
-		if(this instanceof Video){
-			return true;
-		}else{
-			return false;
-		}
+		return false;
 	}
 
 	/**
@@ -117,7 +106,6 @@ public class Libro extends MaterialCapacitacion {
 	 */
 	@Override
 	public Double precio() {
-		//TODO 05: implementar metodo abstracto
 		int aux = this.paginas/150;
 		double FACTOR_PAGINAS = aux *0.03;
 		
@@ -125,7 +113,5 @@ public class Libro extends MaterialCapacitacion {
 		
 		return precio;
 	}
-
-	
 
 }

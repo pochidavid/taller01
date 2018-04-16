@@ -16,7 +16,7 @@ import frsf.isi.died.tp.util.Ordenable;
  * Integrantes del grupo: MANDRACCHIA, Alexis y SANCHEZ, Julian
  * URL github: https://github.com/pochidavid/taller01
  */
-public abstract class MaterialCapacitacion {
+public abstract class MaterialCapacitacion implements Ordenable {
 	protected Integer id;
 	
 	/**
@@ -59,13 +59,6 @@ public abstract class MaterialCapacitacion {
 		this.titulo = titulo;
 		this.costo = costo;
 	}
-	
-	
-
-
-	//TODO 01 implementar los metodos getters y setters y escribir el javadoc
-	// AYUDA: para implementar estos metodos usar un atajo del IDE 
-	// elegir el menu "Source" --> "Generate getters y setters" y elegir alli que metodos generar.
 	
 	public Integer getId() {
 		return id;
@@ -112,16 +105,16 @@ public abstract class MaterialCapacitacion {
 	 */
 	public abstract Boolean esVideo();
 	
-	//TODO 02: sobrescribir el metodo toString de la clase "Object"
-	//	el método toString retorna un string que representa el material actual
-	//  retornando el titulo, y el precio 	 * usando el formato : 
-	// [Titulo: <titulo> ; Precio: <precio> ]
-	
 	@Override
 	public String toString(){
-		return "Titulo: " + this.titulo + " Precio: " + this.precio();
+		return String.format("[Titulo: %s; Precio: %.1f]", this.getTitulo(), this.precio());
 	}
-	
-	// TODO 10: implementar Ordenable
 
+	@Override
+	public int valor() {
+		return this.precio().intValue();
+	}
+
+    //TODO: Notar que estamos invocando un método abstracto (precio) pero funciona.
+    //¿porque considera que funciona? Agregar un comentario en el código con la respuesta.
 }
