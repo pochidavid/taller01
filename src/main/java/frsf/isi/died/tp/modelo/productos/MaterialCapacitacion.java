@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import frsf.isi.died.tp.util.Ordenable;
 
 /**
- * Representa de manera abstracta los materiales de capacitación
+ * Representa de manera abstracta los materiales de capacitaciÃ³n
  * 
  * @author mdominguez
  * Integrantes del grupo: MANDRACCHIA, Alexis y SANCHEZ, Julian
@@ -25,7 +25,7 @@ public abstract class MaterialCapacitacion implements Ordenable {
 	protected String titulo;
 
 	/**
-	 * Costo básico que debe sumarse al precio por el mero hecho de publicarlo en el
+	 * Costo bÃ¡sico que debe sumarse al precio por el mero hecho de publicarlo en el
 	 * portal
 	 */
 	protected Double costo;
@@ -86,7 +86,7 @@ public abstract class MaterialCapacitacion implements Ordenable {
 
 	
 	/**
-	 * El precio de un material se define según el tipo del material y toma como
+	 * El precio de un material se define segÃºn el tipo del material y toma como
 	 * base el costo del mismo
 	 * 
 	 * @return
@@ -115,6 +115,13 @@ public abstract class MaterialCapacitacion implements Ordenable {
 		return this.precio().intValue();
 	}
 
-    //TODO: Notar que estamos invocando un método abstracto (precio) pero funciona.
-    //¿porque considera que funciona? Agregar un comentario en el código con la respuesta.
+    //TODO: Notar que estamos invocando un meÌ�todo abstracto (precio) pero funciona.
+    //Â¿porque considera que funciona? Agregar un comentario en el coÌ�digo con la respuesta.
+
+	@Override
+	public boolean equals(Object t){
+		return ((t instanceof MaterialCapacitacion)&& ((MaterialCapacitacion) t).titulo.toLowerCase().equals(this.titulo.toLowerCase()));
+	
+	}
+	
 }

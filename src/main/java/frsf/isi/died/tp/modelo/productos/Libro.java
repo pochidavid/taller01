@@ -113,5 +113,8 @@ public class Libro extends MaterialCapacitacion {
 		
 		return precio;
 	}
-
+	@Override
+	public boolean equals(Object T){ //me cambió el tipo de retorno a eso de Boolean
+		return (T instanceof Libro && super.equals(T));
+	}
 }

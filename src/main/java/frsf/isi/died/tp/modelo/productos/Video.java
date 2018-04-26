@@ -32,5 +32,8 @@ public class Video extends MaterialCapacitacion {
 	public Boolean esVideo() {
 		return true;
 	}
-
+	@Override
+	public boolean equals(Object T){ //me cambió el tipo de retorno a eso de Boolean
+		return (T instanceof Video && super.equals(T));
+	}
 }
