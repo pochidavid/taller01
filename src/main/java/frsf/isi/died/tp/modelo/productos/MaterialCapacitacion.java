@@ -16,7 +16,7 @@ import frsf.isi.died.tp.util.Ordenable;
  * Integrantes del grupo: MANDRACCHIA, Alexis y SANCHEZ, Julian
  * URL github: https://github.com/pochidavid/taller01
  */
-public abstract class MaterialCapacitacion implements Ordenable {
+public abstract class MaterialCapacitacion implements Ordenable,Comparable {
 	protected Integer id;
 	
 	/**
@@ -122,6 +122,20 @@ public abstract class MaterialCapacitacion implements Ordenable {
 	public boolean equals(Object t){
 		return ((t instanceof MaterialCapacitacion)&& ((MaterialCapacitacion) t).titulo.toLowerCase().equals(this.titulo.toLowerCase()));
 	
+	}
+	@Override
+	public int compareTo(Object T){
+		if(this.equals(T)){
+			if(this.precio().equals(((MaterialCapacitacion)T).precio())){
+				return 0;
+			}
+			else{
+				return this.precio().compareTo(((MaterialCapacitacion)T).precio());
+			}
+		}
+		else{
+			return this.getTitulo().toLowerCase().compareTo(((MaterialCapacitacion)T).getTitulo().toLowerCase());
+		}
 	}
 	
 }
