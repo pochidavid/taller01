@@ -107,14 +107,14 @@ public class Libro extends MaterialCapacitacion {
 	@Override
 	public Double precio() {
 		int aux = this.paginas/150;
-		double FACTOR_PAGINAS = aux *0.03;
+		double FACTOR_PAGINAS = 1+aux *0.03;
 		
 		double precio = this.costo +(this.precioCompra*FACTOR_PAGINAS);
 		
 		return precio;
 	}
 	@Override
-	public boolean equals(Object T){ //me cambió el tipo de retorno a eso de Boolean
+	public boolean equals(Object T){ //me cambiï¿½ el tipo de retorno a eso de Boolean
 		return (T instanceof Libro && super.equals(T));
 	}
 }

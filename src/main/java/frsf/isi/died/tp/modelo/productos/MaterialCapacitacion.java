@@ -107,7 +107,7 @@ public abstract class MaterialCapacitacion implements Ordenable,Comparable {
 	
 	@Override
 	public String toString(){
-		return String.format("[Titulo: %s; Precio: %.1f]", this.getTitulo(), this.precio());
+		return String.format("[Titulo %s; PRECIO: %.1f]", this.getTitulo(), this.precio());
 	}
 
 	@Override
