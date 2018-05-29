@@ -85,11 +85,11 @@ public class ArbolBinarioBusqueda extends Arbol {
 
 	@Override
 	public Integer tamanio() {
-                if(derecho.esVacio()){
-                    if(izquierdo.esVacio())return 1;
-                    else return izquierdo.tamanio();
-                }
-		return 1+izquierdo.tamanio()+derecho.tamanio();
+		Integer tamanio = 1;
+		tamanio+= this.izquierdo.tamanio();
+		tamanio+= this.derecho.tamanio();
+
+		return tamanio;
 	}
 
 	@Override
