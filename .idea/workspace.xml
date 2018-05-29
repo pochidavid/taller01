@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2a37993-1d71-495a-b7b2-2784f604e1c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,62 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LibroTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/frsf/isi/died/tp/modelo/productos/LibroTest.java">
+      <file leaf-file-name="BibliotecaABB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Libro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/Libro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="119" column="1" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPaso02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/frsf/isi/died/tp/taller03/TestPaso02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArbolBinarioBusqueda.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaterialCapacitacion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/MaterialCapacitacion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BibliotecaList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="78" column="106" selection-start-line="78" selection-start-column="106" selection-end-line="78" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -108,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/MaterialCapacitacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/Libro.java" />
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java" />
       </list>
     </option>
   </component>
@@ -260,31 +209,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPaso02">
+  <component name="RunManager" selected="JUnit.TestPaso03">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="LibroTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-final" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns>
-        <pattern testClass="frsf.isi.died.tp.modelo.productos.LibroTest" />
-        <pattern testClass="frsf.isi.died.tp.modelo.productos.Taller02Paso02Test" />
-        <pattern testClass="frsf.isi.died.tp.modelo.productos.Taller02Paso03Test" />
-        <pattern testClass="frsf.isi.died.tp.modelo.productos.VideoTest" />
-      </patterns>
     </configuration>
     <configuration name="Taller02Paso04Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-final" />
@@ -344,6 +271,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="frsf.isi.died.tp.taller03" />
       <option name="MAIN_CLASS_NAME" value="frsf.isi.died.tp.taller03.TestPaso02" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestPaso03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frsf.isi.died.tp.taller03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="frsf.isi.died.tp.taller03" />
+      <option name="MAIN_CLASS_NAME" value="frsf.isi.died.tp.taller03.TestPaso03" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -417,19 +367,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LibroTest and 3 more" />
       <item itemvalue="JUnit.frsf.isi.died.tp.modelo.productos in tp-final" />
       <item itemvalue="JUnit.Taller02Paso04Test" />
       <item itemvalue="JUnit.Taller02Paso05Test" />
       <item itemvalue="JUnit.TestPaso02" />
+      <item itemvalue="JUnit.TestPaso03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPaso03" />
         <item itemvalue="JUnit.TestPaso02" />
         <item itemvalue="JUnit.frsf.isi.died.tp.modelo.productos in tp-final" />
         <item itemvalue="JUnit.Taller02Paso05Test" />
         <item itemvalue="JUnit.Taller02Paso04Test" />
-        <item itemvalue="JUnit.LibroTest and 3 more" />
       </list>
     </recent_temporary>
   </component>
@@ -452,14 +402,11 @@
       <workItem from="1525753835481" duration="293000" />
       <workItem from="1525754207754" duration="524000" />
       <workItem from="1525785902399" duration="1540000" />
-      <workItem from="1527631701393" duration="1005000" />
+      <workItem from="1527631701393" duration="4883000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Taller02Paso05Test - 2018.05.08 at 01h 32m 24s.xml">
-      <configuration name="Taller02Paso05Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Taller02Paso05Test - 2018.05.08 at 01h 34m 08s.xml">
       <configuration name="Taller02Paso05Test" configurationId="JUnit" />
     </history-entry>
@@ -487,9 +434,12 @@
     <history-entry file="TestPaso02 - 2018.05.29 at 19h 22m 42s.xml">
       <configuration name="TestPaso02" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPaso02 - 2018.05.29 at 19h 28m 21s.xml">
+      <configuration name="TestPaso02" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15233000" />
+    <option name="totallyTimeSpent" value="19111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +452,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2865566" />
@@ -514,11 +463,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24236111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24236111" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -555,13 +504,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/frsf/isi/died/tp/modelo/productos/LibroTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -857,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/MaterialCapacitacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/frsf/isi/died/tp/modelo/productos/LibroTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -902,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/frsf/isi/died/tp/taller03/TestPaso02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -919,10 +847,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/MaterialCapacitacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="1110">
           <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
         </state>
       </provider>
     </entry>
