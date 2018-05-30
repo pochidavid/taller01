@@ -151,8 +151,7 @@ public class ArbolBinarioBusqueda extends Arbol {
 	
 	@Override
 	public MaterialCapacitacion buscar(Integer precioBuscado) {
-		int comparacion =this.valor.precio().intValue()- precioBuscado.intValue(); 
-		// TODO comple
+		int comparacion =this.valor.precio().intValue()- precioBuscado.intValue();
 
 		if(comparacion == 0) return this.valor;
 		else if(comparacion > 0) return izquierdo.buscar(precioBuscado);
@@ -166,6 +165,11 @@ public class ArbolBinarioBusqueda extends Arbol {
 		int comparacionPrecioMax =this.valor.precio().compareTo(precioMax);
 
 		// TODO completar
+        if(comparacionPrecioMax >= 0 && comparacionPrecioMin <= 0) lista.add(this.valor);
+
+        if(comparacionPrecioMax >= 0) lista.addAll(izquierdo.rango(precioMin,precioMax));
+        else if(comparacionPrecioMin <= 0) lista.addAll(derecho.rango(precioMin,precioMax));
+
 		return lista;
 	}
 
