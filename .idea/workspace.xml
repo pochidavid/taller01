@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2a37993-1d71-495a-b7b2-2784f604e1c3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BibliotecaABB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BibliotecaABB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
+            <state relative-caret-position="312">
+              <caret line="101" column="11" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArbolBinarioBusqueda.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="158" column="50" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -55,8 +65,8 @@
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaList.java" />
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/MaterialCapacitacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/productos/Libro.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" />
         <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" />
       </list>
     </option>
   </component>
@@ -209,55 +219,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPaso03">
+  <component name="RunManager" selected="JUnit.frsf.isi.died.tp.taller03 in tp-final">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Taller02Paso04Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-final" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="frsf.isi.died.tp.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="frsf.isi.died.tp.modelo.productos" />
-      <option name="MAIN_CLASS_NAME" value="frsf.isi.died.tp.modelo.productos.Taller02Paso04Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Taller02Paso05Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-final" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="frsf.isi.died.tp.modelo.productos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="frsf.isi.died.tp.modelo.productos" />
-      <option name="MAIN_CLASS_NAME" value="frsf.isi.died.tp.modelo.productos.Taller02Paso05Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="TestPaso02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-final" />
@@ -294,6 +258,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="frsf.isi.died.tp.taller03" />
       <option name="MAIN_CLASS_NAME" value="frsf.isi.died.tp.taller03.TestPaso03" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestPaso04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frsf.isi.died.tp.taller03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="frsf.isi.died.tp.taller03" />
+      <option name="MAIN_CLASS_NAME" value="frsf.isi.died.tp.taller03.TestPaso04" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -344,6 +331,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="frsf.isi.died.tp.taller03 in tp-final" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frsf.isi.died.tp.taller03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="frsf.isi.died.tp.taller03" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -368,18 +378,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.frsf.isi.died.tp.modelo.productos in tp-final" />
-      <item itemvalue="JUnit.Taller02Paso04Test" />
-      <item itemvalue="JUnit.Taller02Paso05Test" />
       <item itemvalue="JUnit.TestPaso02" />
       <item itemvalue="JUnit.TestPaso03" />
+      <item itemvalue="JUnit.TestPaso04" />
+      <item itemvalue="JUnit.frsf.isi.died.tp.taller03 in tp-final" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.frsf.isi.died.tp.taller03 in tp-final" />
+        <item itemvalue="JUnit.TestPaso04" />
         <item itemvalue="JUnit.TestPaso03" />
         <item itemvalue="JUnit.TestPaso02" />
         <item itemvalue="JUnit.frsf.isi.died.tp.modelo.productos in tp-final" />
-        <item itemvalue="JUnit.Taller02Paso05Test" />
-        <item itemvalue="JUnit.Taller02Paso04Test" />
       </list>
     </recent_temporary>
   </component>
@@ -402,14 +412,11 @@
       <workItem from="1525753835481" duration="293000" />
       <workItem from="1525754207754" duration="524000" />
       <workItem from="1525785902399" duration="1540000" />
-      <workItem from="1527631701393" duration="4883000" />
+      <workItem from="1527631701393" duration="5823000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Taller02Paso05Test - 2018.05.08 at 01h 34m 08s.xml">
-      <configuration name="Taller02Paso05Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Taller02Paso05Test - 2018.05.08 at 01h 34m 31s.xml">
       <configuration name="Taller02Paso05Test" configurationId="JUnit" />
     </history-entry>
@@ -437,9 +444,12 @@
     <history-entry file="TestPaso02 - 2018.05.29 at 19h 28m 21s.xml">
       <configuration name="TestPaso02" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPaso03 - 2018.05.29 at 20h 42m 53s.xml">
+      <configuration name="TestPaso03" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19111000" />
+    <option name="totallyTimeSpent" value="20051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,6 +462,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2865566" />
@@ -854,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -870,8 +874,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/modelo/BibliotecaABB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
+        <state relative-caret-position="312">
+          <caret line="101" column="11" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frsf/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="158" column="50" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
         </state>
       </provider>
     </entry>

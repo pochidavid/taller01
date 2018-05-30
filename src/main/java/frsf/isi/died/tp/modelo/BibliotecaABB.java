@@ -89,15 +89,6 @@ public class BibliotecaABB implements Biblioteca {
 	}
 	
 	private void ordenarPorPrecio() {
-		// Creo un nuevo arbol que ordena comparando por PRECIO.
-		// Obtengo la lista del �rbol acutal.
-		// Paso cada elemento de la lista al nuevo �rbol.
-		// ahora el nuevo �rbol cuando lo recorra ordenado, mostrar� los 
-		// datos ordenados por PRECIO la pr�xima vez que se invoque en 
-		// BibliotecaABB el m�todo imprimir() o materiales()
-		
-		//TODO Completar
-
 		Arbol arbol = new ArbolBinarioBusqueda(comparaPrecio);
 		List<MaterialCapacitacion> lista = materiales.inOrden();
 
@@ -107,15 +98,6 @@ public class BibliotecaABB implements Biblioteca {
 	}
 	
 	private void ordenarPorTitulo() {
-		// Creo un nuevo arbol que ordena comparando por titulo.
-		// Obtengo la lista del �rbol acutal.
-		// Paso cada elemento de la lista al nuevo �rbol.
-		// ahora el nuevo �rbol cuando lo recorra ordenado, mostrar� los 
-		// datos ordenados por titulo la pr�xima vez que se invoque en 
-		// BibliotecaABB el m�todo imprimir() o materiales()
-
-		//TODO Completar
-
 		Arbol arbol = new ArbolBinarioBusqueda(comparaTitulo);
 		List<MaterialCapacitacion> lista = materiales.inOrden();
 
