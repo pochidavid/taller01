@@ -165,10 +165,10 @@ public class ArbolBinarioBusqueda extends Arbol {
 		int comparacionPrecioMax =this.valor.precio().compareTo(precioMax);
 
 		// TODO completar
-        if(comparacionPrecioMax >= 0 && comparacionPrecioMin <= 0) lista.add(this.valor);
+        if(comparacionPrecioMax <= 0 && comparacionPrecioMin >= 0) lista.add(this.valor);
 
-        if(comparacionPrecioMax >= 0) lista.addAll(izquierdo.rango(precioMin,precioMax));
-        else if(comparacionPrecioMin <= 0) lista.addAll(derecho.rango(precioMin,precioMax));
+        lista.addAll(izquierdo.rango(precioMin,precioMax));
+        lista.addAll(derecho.rango(precioMin,precioMax));
 
 		return lista;
 	}
