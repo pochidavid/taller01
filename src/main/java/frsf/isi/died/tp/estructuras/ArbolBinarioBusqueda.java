@@ -164,7 +164,6 @@ public class ArbolBinarioBusqueda extends Arbol {
 		int comparacionPrecioMin =this.valor.precio().compareTo(precioMin);
 		int comparacionPrecioMax =this.valor.precio().compareTo(precioMax);
 
-		// TODO completar
         if(comparacionPrecioMax <= 0 && comparacionPrecioMin >= 0) lista.add(this.valor);
 
         lista.addAll(izquierdo.rango(precioMin,precioMax));

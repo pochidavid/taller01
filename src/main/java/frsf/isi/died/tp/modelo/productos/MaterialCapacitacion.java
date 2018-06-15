@@ -6,6 +6,7 @@
 package frsf.isi.died.tp.modelo.productos;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 import frsf.isi.died.tp.util.Ordenable;
 
@@ -119,10 +120,27 @@ public abstract class MaterialCapacitacion implements Ordenable,Comparable {
     //Â¿porque considera que funciona? Agregar un comentario en el coÌ�digo con la respuesta.
 
 	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (!(o instanceof MaterialCapacitacion)) return false;
+		MaterialCapacitacion that = (MaterialCapacitacion) o;
+		return Objects.equals(getTitulo(), that.getTitulo());
+	}
+
+	@Override
+	public int hashCode() {
+
+		return Objects.hash(getTitulo());
+	}
+
+	/*
+	@Override
 	public boolean equals(Object t){
 		return ((t instanceof MaterialCapacitacion)&& ((MaterialCapacitacion) t).titulo.toLowerCase().equals(this.titulo.toLowerCase()));
 	
 	}
+	*/
+
 	@Override
 	public int compareTo(Object T){
 		if(this.equals(T)){
