@@ -186,9 +186,29 @@ public class Grafo<T> {
          
     }
     private List<T> buscarCaminoNSaltos(Vertice<T> n1,Vertice<T> n2,Integer saltos,HashSet<Vertice> visitados){
-        ArrayList<T> resultado = new ArrayList<>();
-       //TODO
-        return resultado;
+    	List<T> lista = new ArrayList<>();
+		List<T> resultado = new ArrayList<>();
+
+    	if(saltos == 0){
+    		if(n1.equals(n2)) lista.add(n1.getValor());
+    		return lista;
+		}
+		else{
+			List<Vertice<T>> aux = this.getAdyacentes(n1);
+			visitados.add(n1);
+
+			for (Vertice<T> vertice : aux) {
+				if(!visitados.contains(vertice)){
+					lista = this.buscarCaminoNSaltos(vertice, n2, saltos - 1,(HashSet<Vertice>) visitados.clone());
+					if(!lista.isEmpty()){
+						resultado.add(n1.getValor());
+						resultado.addAll(lista);
+						break;
+					}
+				}
+			}
+		}
+    	return resultado;
     }
 
 	public Integer gradoSalida(T v){
